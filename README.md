@@ -10,6 +10,7 @@
 |---|---|---|---|
 | [`artemis-tyranor-port`](artemis-tyranor-port/SKILL.md) | 基于 [Tyranor-Next](https://github.com/Weiss-UltimateSavior/Tyranor-Next) 定制：游戏数据内置 assets、首次启动解压、点开直达 | ~30 秒（首次解压） | 约 2GB |
 | [`artemis-artroid-port`](artemis-artroid-port/SKILL.md) | 官方 Artemis Android 运行时（`com.ies_net.artemis` 壳）+ 解包后的游戏数据 | **~0.5 秒** | 约 1.4GB |
+| [`kirikiri-krkr2-port`](kirikiri-krkr2-port/SKILL.md) | KiriKiri2 / KiriKiriZ（`.xp3`）→ 用 Kirikiroid2（KRKR2）直接跑；单 APK 需自行编译 KRKR2 | 原生 | 视游戏 |
 
 ## 适用的游戏结构
 
@@ -19,7 +20,7 @@
 |---|---|---|
 | `root.pfs` + `root.pfs.000/.001/...` | **Artemis Engine**（`pf8`/`pf6` magic） | ✅ 两个技能都适用 |
 | 单独 `root.pfs` | **Artemis Engine** | ✅ 两个技能都适用 |
-| `data.xp3` / `*.xp3` | KiriKiri / KrKr2 | ❌ 请用 Kirikiroid2，本仓库不涉及 |
+| `data.xp3` / `*.xp3` | KiriKiri / KrKr2 | ✅ 用 `kirikiri-krkr2-port` |
 | `Scene.pck` + `Gameexe.dat` | SiglusEngine | ❌ 请用 Tyranor 的 Siglus 宿主 |
 | `game.rpa` / `*.rpy` | Ren'Py | ❌ 请用 Ren'Py 官方安卓打包 |
 

@@ -24,6 +24,18 @@
 - 用途：`pf8` / `pf6` 归档格式的解析说明（header、文件表、SHA-1 密钥、XOR 加密）。
 - 本仓库的 Python 解包脚本为按该格式说明独立实现。
 
+### Kirikiroid2（KRKR2）
+- 地址：https://github.com/zeas2/Kirikiroid2
+- 用途：`kirikiri-krkr2-port` 技能的 Android 运行器（开源的 KiriKiri2/KiriKiriZ 跨平台移植）。
+- 相关：
+  - Kirikiroid2_patch（加密 xp3 补丁库）：https://github.com/zeas2/Kirikiroid2_patch
+  - Kirikiroid2-debloated（去广告构建）：https://github.com/enaix/Kirikiroid2-debloated
+- 许可：以各仓库声明为准（使用前请阅读其 LICENSE）。
+
+### KrkrExtract
+- 地址：https://github.com/unlimit999/KrkrExtract
+- 用途：krkr2 / krkrz 的 `.xp3` 解包与封包（支持含加密的包）。
+
 ## 免责声明
 
 本仓库不包含任何游戏版权内容（游戏数据、图片、音频、脚本、存档）。
