@@ -1,0 +1,24 @@
+# 构建产物
+*.apk
+*.aab
+*.apks
+build/
+.gradle/
+local.properties
+.idea/
+*.iml
+
+# 第三方源码（构建时自行克隆，不入库）
+Tyranor-Next/
+artroid-work/
+pfs-extracted/
+
+# 游戏资源（不入库）
+bundled-game/
+*.pfs
+*.pfs.*
+*.xp3
+
+# 系统
+.DS_Store
+Thumbs.db
